@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace napitki
 {
-    abstract class Drinks
+    abstract class Drinks : BottledDrinks
     {
-
+        protected Drinks(string name, double volume) : base(name, volume)
+        {
+            
+        }
     }
 }
