@@ -14,5 +14,6 @@ namespace napitki
         {
             this.degreeAlcohol = degreeAlcohol;
         }
+        public abstract void TypeAlcoholicDrink();
     }
 }

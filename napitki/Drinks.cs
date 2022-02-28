@@ -12,5 +12,6 @@ namespace napitki
         {
             
         }
+        public abstract void TypeDrink();
     }
 }
