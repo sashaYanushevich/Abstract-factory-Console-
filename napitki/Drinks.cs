@@ -8,6 +8,10 @@ namespace napitki
 {
     abstract class Drinks : BottledDrinks
     {
+        protected Drinks()
+        {
+        }
+
         protected Drinks(string name, double volume) : base(name, volume)
         {
             

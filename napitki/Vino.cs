@@ -13,5 +13,10 @@ namespace napitki
         {
             this.typeVino = typeVino;
         }
+
+        public override void TypeAlcoholicDrink()
+        {
+            Console.WriteLine($"Это {typeVino} вино.");
+        }
     }
 }

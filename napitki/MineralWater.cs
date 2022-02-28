@@ -13,5 +13,10 @@ namespace napitki
         {
             this.typeWater = typeWater;
         }
+
+        public override void TypeDrink()
+        {
+            Console.WriteLine("Это миниралка " + typeWater);
+        }
     }
 }

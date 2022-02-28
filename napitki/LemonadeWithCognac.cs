@@ -10,11 +10,11 @@ namespace napitki
     {
         public override AlcoholicDrinks alcDrink() 
         {
-            return new Cognac("Старый Кахети",0.5,40,"Дубовый");
+            return new Cognac();
         }
         public override Drinks drink()
         {
-            return new Lemonade("Тархун","Тархун",1);
+            return new Lemonade();
         }
     }
 }

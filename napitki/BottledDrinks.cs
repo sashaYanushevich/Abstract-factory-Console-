@@ -8,8 +8,21 @@ namespace napitki
 {
     abstract class BottledDrinks
     {
-        private string name { get; set; }
-        private double volume { get; set; }
+        private string name;
+        private double volume;
+
+        public string Name
+        {
+            get=> name;
+        }
+        public double Volume
+        {
+            get => volume;
+        }
+
+        protected BottledDrinks()
+        {
+        }
 
         protected BottledDrinks(string name, double volume)
         {

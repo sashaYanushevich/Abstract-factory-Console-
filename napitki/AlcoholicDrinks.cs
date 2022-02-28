@@ -8,7 +8,15 @@ namespace napitki
 {
     abstract class AlcoholicDrinks : BottledDrinks
     {
-        private double degreeAlcohol { get; set; }
+        protected double degreeAlcohol;
+
+        public double DegreeAlcohol
+        {
+            get => degreeAlcohol;
+        }
+        protected AlcoholicDrinks()
+        {
+        }
 
         protected AlcoholicDrinks(string name,double volume,double degreeAlcohol) : base (name,volume)
         {

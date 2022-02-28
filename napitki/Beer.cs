@@ -14,5 +14,11 @@ namespace napitki
         {
             this.typeBeer = typeBeer;
         }
+
+
+        public override void TypeAlcoholicDrink()
+        {
+            Console.WriteLine("Это пиво");
+        }
     }
 }

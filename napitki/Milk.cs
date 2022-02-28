@@ -14,5 +14,10 @@ namespace napitki
         {
             this.fattiness = fattiness;
         }
+
+        public override void TypeDrink()
+        {
+            Console.WriteLine($"Это молоко. Жирность: {fattiness}");
+        }
     }
 }
