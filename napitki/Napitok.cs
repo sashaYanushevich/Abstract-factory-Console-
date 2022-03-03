@@ -8,8 +8,9 @@ namespace napitki
 {
     internal class Napitok
     {
-        private AlcoholicDrinks alDrinks { get; set; }
-        private Drinks drinks { get; set; }
+        public AlcoholicDrinks alDrinks { get; set; }
+        public Drinks drinks { get; set; }
+
 
         public Napitok(BottleFactory factory)
         {
